@@ -1,12 +1,12 @@
 it was just a typo)
 
-##Text
+## Text
 ###    - str
 
-##Numeric
+## Numeric
 ###    - int
 ###    - float
 ###    - complex
 
-##Boolean
+## Boolean
 ###    - bool (true or false)
