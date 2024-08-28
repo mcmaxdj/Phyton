@@ -68,3 +68,29 @@
 #         print(f'Entered value `{text}` is an odd number')
 # else:
 #     print(f'Entered value `{text}` is a text with length {n}')
+
+# === 5.1 ===
+
+# info = input('Enter your value: ')
+# for i in info:
+#     if i.isnumeric():
+#         i = int(i)
+#         if i % 2 == 0:
+#             print(f'The symbol `{i}` is an even digit')
+#         else:
+#             print(f'The symbol `{i}` is an odd digit')
+#     elif i.isupper():
+#         print(f'The symbol `{i}` is an uppercase letter')
+#     elif i.islower():
+#         print(f'The symbol `{i}` is an lowercase letter')
+#     else:
+#         print(f'The symbol `{i}` is neither a digit nor a letter')
+
+# === 5.2 ===
+
+# while True:
+#     command = input('Enter your command: ')
+#     if command == 'exit':
+#         break
+#     else:
+#         print(command)
