@@ -85,3 +85,12 @@
 #         print(f'The symbol `{i}` is an lowercase letter')
 #     else:
 #         print(f'The symbol `{i}` is neither a digit nor a letter')
+
+# === 5.2 ===
+
+# while True:
+#     command = input('Enter your command: ')
+#     if command == 'exit':
+#         break
+#     else:
+#         print(command)
