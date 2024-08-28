@@ -122,4 +122,115 @@
 
 # ===================== Iteration/cycle
 
- 
+# x = 4
+# while x:
+#     print(x)
+#     if x == 10:
+#         x = 0
+#     else:
+#         x += 1
+# print(x)
+
+# x = 0
+# while x <= 100:
+#     if x % 5 == 0:
+#         print(x)
+#     x += 1
+    
+# x = 100
+# while x >= 0:
+#     if not x % 5:
+#         print(x)
+#     x -= 1
+
+# ===================== for ... in ...
+
+# lst = [1, 2, 3, 4] #type list
+
+# for item in lst:
+#     print(item)
+
+# for item in lst:
+#     print('what it will be?')
+
+# hello = 'Hi, there'
+# for symbol in hello:
+#     print(symbol)
+
+# entered_text = input('Enter some text: ')
+# for symbol in entered_text:
+#     if symbol == ' ':
+#         print('you have a space here')
+#     if symbol.isdigit():
+#         print('you have a digit here')
+
+# print(entered_text)
+# print(entered_text.split())
+
+# for word in entered_text.split():
+#     print(word)
+
+# phrase = 'our text for test'
+# for _ in phrase: # _ - ignor variable 
+#     print('some new text')
+
+# ===================== for ... in ...+ range()
+
+# for i in range(10):
+#     print(i)
+
+# for i in range(3, 10):
+#     print(i)
+
+# for i in range(1, 10, 4):
+#     print(i)
+
+# ===================== continue / break
+
+# numbers = [2, 1, 3, 4, 6, 8 , 9, 12]
+# for i in numbers:
+#     if i % 2:
+#         continue
+#     print(i)
+
+# text = 'Hello, world!'
+# i = 0
+# while i < len(text):
+#     if text[i] == 'o':
+#         print(f'Index of the "o" letter is {i}')
+#         break
+#     print(f'Letter at the {i} position is not "o"')
+#     i += 1
+
+# for i in range(1, 10):
+#     if i % 2:
+#         continue
+#     print(i)
+
+# for i in range(10):
+#     if i > 5:
+#         break
+#     print(i)
+
+# x = 1
+# while x < 25:
+#     if x == 7:
+#         break
+#     if x % 2:
+#         print('odd')
+#     else: 
+#         print('even')
+#     x += 1
+
+# while True:
+#     command = input("Enter a command: ")
+#     if command == "name":
+#         print('Name is Oleg')
+#     elif command == 'exit':
+#         print('exiting')
+#         break
+#     else:
+#         print(f'Command `{command}` not found. Available commands:\n'
+#               f'name: print a name\n'
+#               f'exit: stop the program')
+# print("Good bye!")
