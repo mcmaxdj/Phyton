@@ -94,3 +94,13 @@
 #         break
 #     else:
 #         print(command)
+
+# === 5.3 ===
+
+# while True:
+#     command = input('Enter your command: ')
+#     command = command.strip().lower()
+#     if command == 'exit':
+#         break
+#     else:
+#         print(command)
