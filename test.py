@@ -234,3 +234,64 @@
 #               f'name: print a name\n'
 #               f'exit: stop the program')
 # print("Good bye!")
+
+# ===================== FUNCTIONS
+
+# def my_function():
+#     print('Hello function!!!')
+# my_function()
+
+# def my_function1(argument):
+#     print(f'Hello function!!! My Argument is - {argument}')
+# my_function1('TRUE') 
+
+# def my_function2(a, b):
+#     return a + b
+# my_sum = my_function2(7, 4)
+# print(my_sum)
+
+# === return function ===
+
+# def test():
+#     def inner_test():
+#         print('inner function text')
+#     return 1, inner_test
+
+# number, func = test()
+# print(number)
+# func()
+
+# def mult_return():
+#     return 1, 2
+# one, two = mult_return()
+
+# print(one, two)
+
+# def my_func():
+#     return 1
+
+# def my_void_func():
+#     a = 1
+#     a += 1
+
+# a = my_func()
+# b = my_void_func()
+
+# print(a, b)
+
+# def default_args(a = 1, b = 2, c = 3):
+#     print(a, b, c)
+# default_args(b = 7)
+
+# def test_args(arg1, arg2, arg3):
+#     print(arg1, arg2, arg3)
+
+# lst = [1, 2, 3]
+# test_args(*lst)
+
+# def test_args(arg1, arg2, arg3):
+#     print(arg1, arg2, arg3)
+
+# dct = {"arg3": 1, "arg2": "two", "arg1": 3}
+# test_args(**dct)
+
