@@ -104,3 +104,63 @@
 #         break
 #     else:
 #         print(command)
+
+# === 6.1 ===
+
+# def say_func():
+#     print('I am a Function')
+# say_func()
+
+# === 6.2 ===
+
+# def check_age(age):
+#     if age <= 0 or age > 110:
+#         print('Error')
+#     elif age >= 18:
+#         print("Adult")
+#     else:
+#         print('Child')
+# check_age(-4)
+# check_age(0)
+# check_age(17)
+# check_age(18)
+# check_age(21)
+# check_age(110)
+# check_age(111)
+
+# === 6.3 ===
+
+# def power_two(n):
+#     return pow(n, 2)
+# print(power_two(4))
+
+# === 6.4 ===
+
+# def text_len(text):
+#     return len(text)
+# res = text_len('some text!')
+# print(res)
+
+# === 6.5 ===
+
+# def power_two(n):
+#     return pow(n, 7)
+# print(power_two(2))
+
+# === 6.6 ===
+
+# def split_text(text):
+#     return text.split()
+# print(split_text('mY new text'))
+
+# === 6.7 ===
+
+# def is_prime(num):
+#     if num <= 1:
+#         return False
+#     for i in range(2, int(num**0.5) + 1):
+#         if num % i == 0:
+#             return False
+#     else:
+#         return True 
+# print(is_prime(7))
