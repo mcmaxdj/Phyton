@@ -164,3 +164,42 @@
 #     else:
 #         return True 
 # print(is_prime(7))
+
+# === 7.1 ===
+
+# def args_len(*args):
+#     return len(args)
+# res = args_len(1, 2, 3, 'sdd', True)
+# print(res)
+
+# === 7.2 ===
+
+# def has_42(*args):
+#     if 42 in args:
+#         return True
+#     else:
+#         return False
+# res = has_42('42', 32, 33, 3, 3, 2)
+# print(res)
+    
+# === 7.3 ===
+
+# def check_even():
+#     return print(list(filter(lambda x: x % 2 == 0, [1, 21, 22, 32, 33, 12])))
+# check_even()
+
+# === 7.4 ===
+
+# nums = [32, -12, 3, -7, -9]
+# def mirror(x):
+#     return print(list(map(lambda x: x * -1, x)))
+# mirror(nums)
+
+# === 7.5 ===
+
+# def make_adder(n):
+#     def added(x):
+#         return n + x
+#     return added
+# adder = make_adder(5)
+# print(adder(10))
