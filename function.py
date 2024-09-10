@@ -143,16 +143,16 @@
 
 # ============ ENTRYPOINT (точка входа) ============
 
-def second_test():
-    print('test')
+# def second_test():
+#     print('test')
 
-def test():
-    print('its me')
+# def test():
+#     print('its me')
 
-def main():
-    test()
-    second_test()
+# def main():
+#     test()
+#     second_test()
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 
