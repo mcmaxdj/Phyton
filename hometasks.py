@@ -203,3 +203,67 @@
 #     return added
 # adder = make_adder(5)
 # print(adder(10))
+
+# === 9.1 ===
+
+# def is_in_list(lst, value):
+#     if value in lst:
+#         return True
+#     else:
+#         return False
+# print(is_in_list([1, 2, 3, 4, 42], 5))
+
+# === 9.2 ===
+
+# def add_to_list(lst, value):
+#     lst.append(value)
+#     return lst
+# print(add_to_list([1, 2, 3, 4, 5], 9))
+
+# === 9.3 ===
+
+# def add_to_list_index(lst, value, index = None):
+#     if index == None:
+#         lst.append(value)
+#         return lst
+#     else:
+#         lst.insert(value, index)
+#         return lst
+# print(add_to_list_index([1, 2, 3, 4, 5], 0))
+# print(add_to_list_index([1, 2, 3, 4, 5], 3, 0))
+
+# === 9.4 ===
+
+# def remove_from_list(lst, index):
+#     del lst[index]
+#     return lst
+# print(remove_from_list([1, 2, 3, 4, 5, 6, 7], -1))
+
+# === 9.5 ===
+
+# def slice(lst, start, end):
+#     new_lst = lst[start:end]
+#     if start < end and end < len(lst):
+#         print(True)
+#         print(len(lst))
+#     else:
+#         print(False)
+#     return new_lst
+# print(slice([1, 2, 3, 4, 5], 1, 4))
+
+# === 9.6 ===
+
+# def unique(lst):
+#     new_list = []
+#     for i in lst:
+#         if i not in new_list:
+#             new_list.append(i)
+#     return new_list
+# print(unique([1, 2, 3, 2, 1, 1, 3, 5, 6, 7, 34, 34, 34, 4]))
+
+# === 9.7 ===
+
+# def merge(tuple1, tuple2):
+#     return tuple1 + tuple2
+# print(merge((1, 2, 3), (4, 5, 6)))
+
