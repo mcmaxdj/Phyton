@@ -273,6 +273,6 @@ lst[::-1] -> [8, 7, 6, 5, 4, 3, 2, 1, 0]
 # my_dict = {f'key-{n}': 'value' for n in lst}
 # print(my_dict)
 
-import random
-my_random_list = [random.randint(0, 100) for _ in range(7)]
-print(my_random_list)
+# import random
+# my_random_list = [random.randint(0, 100) for _ in range(7)]
+# print(my_random_list)
