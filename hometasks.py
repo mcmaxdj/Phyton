@@ -267,3 +267,43 @@
 #     return tuple1 + tuple2
 # print(merge((1, 2, 3), (4, 5, 6)))
 
+# === 10.1 ===
+test_dict = {'max': 12345, 'Olek': 67890}
+
+# def init():
+#     phones = dict()
+#     return phones
+# init()
+
+# def add_to_dict():
+#     res = dict()
+#     name_key = input('Enter the Name: ')
+#     number_value = input('Enter a phone number: ')
+#     res[name_key] = number_value
+#     print(res)
+# add_to_dict()
+
+def remove_from_dict(dict, key):
+    if key in dict:
+        del dict[key]
+    else:
+        return
+print(remove_from_dict(test_dict, 'Olek'))
+
+# def value_by_key(dict, key):
+#     if key in dict:
+#         return dict[key]
+#     else:
+#         return None
+# print(value_by_key(test_dict, 'qwe'))
+
+# def list_of_keys(dict):
+#     return dict.keys()
+# print(list_of_keys(test_dict))
+
+# def key_exist(dict, key):
+#     if key in dict:
+#         return True
+#     else:
+#         return False
+# print(key_exist(test_dict, 'rio'))
